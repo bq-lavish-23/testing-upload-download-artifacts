@@ -43,7 +43,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: hello-world
-          path: ./separate-folder
+          
 
       - name: Display artifact content
-        run: cat ./separate-folder/output-folder/output.txt
+        run: cat output.txt
